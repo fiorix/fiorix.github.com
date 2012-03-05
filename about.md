@@ -8,7 +8,7 @@ Back in the days, I used to write C code offline. By accident, I ended up with L
  BSD, and pretty much all Unix-like operating systems, and a hell lotta networking.
 
 As a professional, I made up my carreer working mostly as a programmer,
-but also as systems and network administrator. Over all these years, I
+but also as systems and network engineer. Over all these years, I
  had contact with some more exotic stuff such as marketing, managing, etc. This mix
 led me to entrepreneurship, which resulted in building a couple of companies
 from the ground up.
