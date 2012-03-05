@@ -1,0 +1,5 @@
+---
+prefix: 
+datefmt: '%A. %B %e, %Y'
+pygments: true
+permalink: /:year-:month-:day/:title.html

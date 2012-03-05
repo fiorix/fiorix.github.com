@@ -1,0 +1,23 @@
+---
+layout: default
+title: Archive
+---
+
+<h2>Archive</h2>
+
+<div id="post_links">
+  <table class="table table-condensed">
+  <thead>
+    <th>Title</th>
+    <th>When</th>
+  </thead>
+  <tbody>
+  {% for post in site.posts %}
+    <tr>
+      <td><a href="{{post.url}}">{{post.title}}</a></td>
+      <td>{{post.date|date:site.datefmt}}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+  </table>
+</div>
