@@ -17,7 +17,7 @@ Over the last 10 years, I gave over 500 lectures and speeches, teached Linux,
 programming, and networking to thousands of people.
 
 I still write a lot of code, usually open source, not always free software.
-Currently, it's mostly Python, Javascript, and some C here and there.
+Currently, it's mostly Python and web-related stuff. Some C here and there.
 
 But life is not only about computers...
 
