@@ -1,5 +1,5 @@
 ---
 prefix: 
 datefmt: '%A. %B %e, %Y'
-pygments: true
+pygments: false
 permalink: /:year-:month-:day/:title.html
