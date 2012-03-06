@@ -20,5 +20,4 @@ Basically, it keeps a single server-side telnet connection with
 `towel.blinkenlights.nl` and broadcasts all messages to all browsers listening
 in the sse endpoint.
 
-There's a <a class="btn btn-primary" href="http://cyclone.io/ssedemo">live demo</a>
- in [http://cyclone.io/ssedemo](http://cyclone.io/ssedemo).
+There's a live demo at [http://cyclone.io/ssedemo](http://cyclone.io/ssedemo).
