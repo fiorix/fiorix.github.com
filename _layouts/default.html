@@ -33,19 +33,19 @@
           {{ content }}
         </div>
         <div class="span4 menu">
-          <div class="row"><ul class="nav nav-pills pull-right">
+          <ul class="nav nav-pills pull-right">
             <li {% if page.title == 'Index' %}class="active"{% endif %}> <a href="{{site.prefix}}/index.html">Index</a></li>
             <li {% if page.title == 'Archive' %}class="active"{% endif %}> <a href="{{site.prefix}}/archive.html">Archive</a></li>
             <li {% if page.title == 'About' %}class="active"{% endif %}> <a href="{{site.prefix}}/about.html">About</a></li>
-          </ul></div>
+          </ul>
           <form class="form-search" action="http://google.com/search" method="get">
             <input type="hidden" name="q" value="site:fiorix.net" />
             <input type="text" name="q" results="0" class="input-medium search-query span2">
-	    <button type="submit" class="btn">Search</button>
+            <button type="submit" class="btn">Search</button>
           </form>
 
           <p><a href="https://github.com/fiorix">@fiorix</a> on GitHub</p>
-          <p><a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a> <a href="{{site.prefix}}/rss.xml"><img src="{{site.prefix}}/img/feed-icon-20x20.png" width=18 height=18></a></p>
+          <p><a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a></p>
           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
           <h2>Recent posts</h2>
@@ -58,7 +58,7 @@
 
       <br>
       <footer>
-        <p>&copy; fiorix</p>
+        <p>&copy; fiorix <a href="{{site.prefix}}/rss.xml"><img style="top:0;padding:0;margin:0" src="{{site.prefix}}/img/feed-icon-20x20.png"></a></p>
       </footer>
     </div> <!-- /container -->
 
