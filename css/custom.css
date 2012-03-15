@@ -1,0 +1,57 @@
+/* http://www.colourlovers.com/palette/532628/USN_Digital */
+body {
+padding-top: 60px;
+background: #202C38;
+color: white;
+}
+header h1 {
+font-size: 40px;
+line-height: 1;
+letter-spacing: -1px;
+color: #7488A1;
+font-family: "Ropa Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+header .thirteen {
+color: white;
+font-size: 50px;
+}
+header p {
+font-size: 15px;
+font-weight: 200;
+line-height: 27px;
+color: #465962;
+font-family: "Ropa Sans", Helvetica, Arial, sans-serif
+}
+header p small {
+font-size: 10px;
+}
+.menu {
+text-align: right;
+}
+footer p {
+font-size: 15px;
+font-weight: 200;
+line-height: 27px;
+color: #465962;
+font-family: "Ropa Sans", Helvetica, Arial, sans-serif
+}
+h2 {
+font-size: 20px;
+line-height: 2;
+letter-spacing: -1px;
+color: #516580;
+font-family: "Ropa Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+h3 {
+font-size: 18px;
+line-height: 2;
+letter-spacing: -1px;
+color: #465962;
+font-family: "Ropa Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+.recent {
+line-height: 0.8;
+}
+.post {
+padding-bottom: 20px;
+}

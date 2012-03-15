@@ -3,5 +3,13 @@ layout: default
 ---
 
 <h2>{{ page.title }}</h2>
-<p><small>{{page.date|date:site.datefmt}} - {{page.location}}</small></p>
+<p><small>{{page.date|date:site.datefmt_long}} - {{page.location}}</small></p>
 {{ content }}
+
+{% if site.related_posts %}
+  <br>
+  <h3>You might also like</h3>
+  {% for related in site.related_posts limit:5 %}
+    <p class="recent"><a href="{{related.url}}">{{related.title}}</a></p>
+  {% endfor %}
+{% endif %}

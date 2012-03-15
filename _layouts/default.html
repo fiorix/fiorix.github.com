@@ -11,65 +11,11 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="{{site.prefix}}/css/bootstrap.css" rel="stylesheet">
-    <link href="{{site.prefix}}/js/google-code-prettify/prettify.css" rel="stylesheet">
-
-    <!-- Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
-
-    <style>
-      /* http://www.colourlovers.com/palette/532628/USN_Digital */
-      body {
-        padding-top: 60px;
-        background: #202C38;
-        color: white;
-      }
-      header h1 {
-        font-size: 40px;
-        line-height: 1;
-        letter-spacing: -1px;
-        color: #7488A1;
-        font-family: "Ropa Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
-      }
-      header .thirteen {
-        color: white;
-        font-size: 50px;
-      }
-      header p {
-        font-size: 15px;
-        font-weight: 200;
-        line-height: 27px;
-        color: #465962;
-        font-family: "Ropa Sans", Helvetica, Arial, sans-serif
-      }
-      header p small {
-        font-size: 10px;
-      }
-      .menu {
-        text-align: right;
-      }
-      footer p {
-        font-size: 15px;
-        font-weight: 200;
-        line-height: 27px;
-        color: #465962;
-        font-family: "Ropa Sans", Helvetica, Arial, sans-serif
-      }
-      h2 {
-        font-size: 20px;
-        line-height: 2;
-        letter-spacing: -1px;
-        color: #516580;
-        font-family: "Ropa Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
-      }
-      .recent {
-      	line-height: 0.8;
-      }
-      .post {
-      	padding-bottom: 20px;
-      }
-    </style>
-    <link href="{{site.prefix}}/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="{{site.prefix}}/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link href="{{site.prefix}}/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{site.prefix}}/css/custom.css" rel="stylesheet">
+    <link href="{{site.prefix}}/css/bootstrap-responsive.min.css" rel="stylesheet">
 
   </head>
 
@@ -99,18 +45,18 @@
           </form>
 
           <p><a href="https://github.com/fiorix">@fiorix</a> on GitHub</p>
-          <p><a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a></p>
+          <p><a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a> <a href="{{site.prefix}}/rss.xml"><img src="{{site.prefix}}/img/feed-icon-20x20.png"></a></p>
           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
           <h2>Recent posts</h2>
-
           {% for post in site.posts limit: 5 %}
-            <p class="recent"><a href="{{post.url}}">{{post.title}}</a> <small>{{post.date|date:site.datefmt}}</small></p>
+            <p class="recent"><a href="{{post.url}}">{{post.title}}</a> <small>{{post.date|date:site.datefmt_short}}</small></p>
           {% endfor %}
 
         </div>
       </div><!--row-->
 
+      <br>
       <footer>
         <p>&copy; fiorix</p>
       </footer>
@@ -132,6 +78,7 @@
         window.prettyPrint && prettyPrint();
       });
     </script>
+
     <script type="text/javascript">
 
       var _gaq = _gaq || [];

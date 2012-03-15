@@ -6,7 +6,7 @@ title: Archive
 <h2>Archive</h2>
 
 <div id="post_links">
-  <table class="table table-condensed">
+  <table class="table table-condensed table-striped">
   <thead>
     <th>Title</th>
     <th>When</th>
@@ -15,7 +15,7 @@ title: Archive
   {% for post in site.posts %}
     <tr>
       <td><a href="{{post.url}}">{{post.title}}</a></td>
-      <td>{{post.date|date:site.datefmt}}</td>
+      <td>{{post.date|date:site.datefmt_short}}</td>
     </tr>
   {% endfor %}
   </tbody>
