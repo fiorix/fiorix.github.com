@@ -1,8 +1,8 @@
 /* http://www.colourlovers.com/palette/532628/USN_Digital */
 body {
 padding-top: 60px;
-background: #202C38;
-color: white;
+/*background: #202C38;
+color: white;*/
 }
 header h1 {
 font-size: 40px;
@@ -12,7 +12,7 @@ color: #7488A1;
 font-family: "Ropa Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 header .thirteen {
-color: white;
+color: #465962;
 font-size: 50px;
 }
 header p {

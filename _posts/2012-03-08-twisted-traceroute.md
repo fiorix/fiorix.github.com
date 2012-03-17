@@ -35,8 +35,8 @@ by the reactor, up with the traceroute requirements of sending synchronized,
 At the end of the day, it's a nice piece of code, which should work just fine
  if you copy and paste into any twisted-based program.
 
-Here's the code:
-
+<!--
 <script src="http://gist-it.appspot.com/github/fiorix/txtraceroute/raw/master/txtraceroute.py"> </script>
+-->
 
 Check out the git repo: [https://github.com/fiorix/txtraceroute](https://github.com/fiorix/txtraceroute)

@@ -28,21 +28,21 @@ But life is not only about computers...
         <div class="thumbnail">
           <img src="{{site.prefix}}/img/about/wear-t-shirt-at-minus-18-celsius.jpg" alt="">
           <h5>No colds.</h5>
-          <p><i class="icon-ok icon-white"> </i> Wear t-shirt at -18&#x2103;.</p>
+          <p><i class="icon-ok icon"> </i> Wear t-shirt at -18&#x2103;.</p>
         </div>
       </li>
       <li class="span4">
         <div class="thumbnail">
           <img src="{{site.prefix}}/img/about/jump-over-the-pyramids.jpg" alt="">
           <h5>No photoshops.</h5>
-          <p><i class="icon-ok icon-white"> </i> Jump over the pyramids.</p>
+          <p><i class="icon-ok icon"> </i> Jump over the pyramids.</p>
         </div>
       </li>
       <li class="span4">
         <div class="thumbnail">
           <img src="{{site.prefix}}/img/about/smoke-cuban-cigar-in-cuba.jpg" alt="">
           <h5>No politics.</h5>
-          <p><i class="icon-ok icon-white"> </i> Smoke Cuban cigar, in Cuba.</p>
+          <p><i class="icon-ok icon"> </i> Smoke Cuban cigar, in Cuba.</p>
         </div>
       </li>
     </ul>
