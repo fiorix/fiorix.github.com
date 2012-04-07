@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello, world
-location: Waterloo, Canada.
+location: Waterloo, Canada
 tags:
  - jekyll
  - hello world

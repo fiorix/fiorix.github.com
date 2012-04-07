@@ -5,15 +5,11 @@ padding-top: 60px;
 color: white;*/
 }
 header h1 {
-font-size: 40px;
+font-size: 45px;
 line-height: 1;
 letter-spacing: -1px;
 color: #7488A1;
 font-family: "Ropa Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-header .thirteen {
-color: #465962;
-font-size: 50px;
 }
 header p {
 font-size: 15px;
@@ -24,6 +20,9 @@ font-family: "Ropa Sans", Helvetica, Arial, sans-serif
 }
 header p small {
 font-size: 10px;
+}
+header {
+padding-bottom: 20px;
 }
 .menu {
 text-align: right;
@@ -36,14 +35,14 @@ color: #465962;
 font-family: "Ropa Sans", Helvetica, Arial, sans-serif
 }
 h2 {
-font-size: 20px;
-line-height: 2;
+font-size: 25px;
+line-height: 1;
 letter-spacing: -1px;
 color: #516580;
 font-family: "Ropa Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 h3 {
-font-size: 18px;
+font-size: 20px;
 line-height: 2;
 letter-spacing: -1px;
 color: #465962;
