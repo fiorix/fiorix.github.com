@@ -4,81 +4,37 @@
     <meta charset="utf-8">
     <title>fiorix.net</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
-    <!-- Le styles -->
     <link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
     <link href="{{site.prefix}}/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{site.prefix}}/css/bootstrap-responsive.min.css" rel="stylesheet">
     <link href="{{site.prefix}}/css/custom.css" rel="stylesheet">
-    <link href="{{site.prefix}}/js/google-code-prettify/prettify.css" rel="stylesheet">
-
   </head>
 
   <body>
-
     <div class="container">
-
-      <header>
-        <h1><a href="{{site.prefix}}/" class="thirteen">&#x2693;</a> fiorix.net</h1>
-        <p>Ship, ahoy! Hast seen the White Whale? <small>Cap'n Ahab</small></p>
-      </header>
-
       <div class="row">
-        <div class="span8">
-          {{ content }}
-        </div>
-        <div class="span4 menu">
-          <ul class="nav nav-pills pull-right">
-            <li {% if page.title == 'Index' %}class="active"{% endif %}> <a href="{{site.prefix}}/index.html">Index</a></li>
-            <li {% if page.title == 'Archive' %}class="active"{% endif %}> <a href="{{site.prefix}}/archive.html">Archive</a></li>
-            <li {% if page.title == 'About' %}class="active"{% endif %}> <a href="{{site.prefix}}/about.html">About</a></li>
-          </ul>
-          <form class="form-search" action="http://google.com/search" method="get">
-            <input type="hidden" name="q" value="site:fiorix.net" />
-            <input type="text" name="q" results="0" class="input-medium search-query span2">
-            <button type="submit" class="btn">Search</button>
-          </form>
+        <div class="span8 offset2">
+          <header>
+            <h1><a href="{{site.prefix}}/">fiorix weblog</a></h1>
+            <p><a href="{{site.prefix}}/rss.xml"><img src="{{site.prefix}}/img/feed-icon-20x20.png"> rss</a> / <a href="{{site.prefix}}/about.html">about</a> / <a href="http://github.com/fiorix">@fiorix</a> on GitHub.</p>
+          </header>
 
-          <p><a href="https://github.com/fiorix">@fiorix</a> on GitHub</p>
-          <p><a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a></p>
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	  {{content}}
 
-          <h2>Recent posts</h2>
-          {% for post in site.posts limit: 5 %}
-            <p class="recent"><a href="{{post.url}}">{{post.title}}</a> <small>{{post.date|date:site.datefmt_short}}</small></p>
-          {% endfor %}
+          <br>
+          <footer>
+            <p>&copy; fiorix</p>
+          </footer>
 
-        </div>
-      </div><!--row-->
-
-      <br>
-      <footer>
-        <p>&copy; fiorix <a href="{{site.prefix}}/rss.xml"><img src="{{site.prefix}}/img/feed-icon-20x20.png"></a></p>
-      </footer>
+        </div> <!--main span8-->
+      </div> <!--row-->
     </div> <!-- /container -->
 
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
     <script src="{{site.prefix}}/js/jquery.js"></script>
-    <script src="{{site.prefix}}/js/bootstrap-transition.js"></script>
-    <script src="{{site.prefix}}/js/bootstrap-alert.js"></script>
-    <script src="{{site.prefix}}/js/bootstrap-button.js"></script>
     <script src="{{site.prefix}}/js/bootstrap-collapse.js"></script>
-    <script src="{{site.prefix}}/js/bootstrap-carousel.js"></script>
-    <script src="{{site.prefix}}/js/google-code-prettify/prettify.js"></script>
-    <script>
-      $(document).ready(function() {
-      	$(".gist-data").addClass("pre-scrollable");
-        window.prettyPrint && prettyPrint();
-      });
-    </script>
-
     <script type="text/javascript">
 
       var _gaq = _gaq || [];
