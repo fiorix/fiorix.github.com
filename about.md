@@ -3,42 +3,12 @@ layout: default
 title: About
 ---
 
-I'm a computer hacker from the early 90s, from before the Internet.
-Back in the days, I used to write C code offline. By accident, I ended up with
-Linux, BSD, and pretty much all Unix-like operating systems, and a hell lotta
-networking.
+Friends with the Unix terminal. &lt;3 vim for over a decade.
 
-As a professional, I made up my carreer working mostly as a programmer,
-but also as systems and network engineer. Over all these years, I've had
-contact with some more exotic stuff such as marketing, managing, etc. This mix
-led me to entrepreneurship, which resulted in building a couple of startup
-companies from the ground up.
+- early 90s: DOS, Clipper, Turbo C
+- mid: Linux, GCC, Internets
+- late: HA, SQL, VoIP, real-time, image processing, teaching...
+- mid 00s: Business, OSX, Python
+- lately: Parenting, +all the above, younger than ever.
 
-Over the last 10 years, I gave over 500 lectures and speeches, teached Linux,
-programming, and networking to thousands of people.
-
-I still write a lot of code, usually open source, not always free software.
-Currently, it's mostly Python and web-related stuff. Some C here and there.
-
-But life is not only about computers...
-
-<div class="row">
-  <div class="span8">
-    <ul class="thumbnails">
-      <li class="span4">
-        <div class="thumbnail">
-          <img src="{{site.prefix}}/img/about/jump-over-the-pyramids.jpg" alt="">
-          <h5>No photoshops.</h5>
-          <p><i class="icon-ok icon"> </i> Jump over the pyramids.</p>
-        </div>
-      </li>
-      <li class="span4">
-        <div class="thumbnail">
-          <img src="{{site.prefix}}/img/about/smoke-cuban-cigar-in-cuba.jpg" alt="">
-          <h5>No politics.</h5>
-          <p><i class="icon-ok icon"> </i> Smoke Cuban cigar, in Cuba.</p>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+Never used Windows as the main desktop. Respect.
