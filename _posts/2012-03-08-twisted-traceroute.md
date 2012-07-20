@@ -2,6 +2,7 @@
 layout: post
 title: Twisted traceroute
 location: Waterloo, Canada
+comments: true
 tags:
  - python
  - twisted

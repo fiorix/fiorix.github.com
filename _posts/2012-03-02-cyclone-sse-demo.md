@@ -2,6 +2,7 @@
 layout: post
 title: cyclone sse demo
 location: Waterloo, Canada
+comments: true
 tags:
  - python
  - twisted web

@@ -2,6 +2,7 @@
 layout: post
 title: UNIX sockets in txredisapi
 location: Mexico City
+comments: true
 tags:
  - python
  - twisted

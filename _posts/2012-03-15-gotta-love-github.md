@@ -2,6 +2,7 @@
 layout: post
 title: Gotta love GitHub
 location: Mexico City
+comments: true
 tags:
  - github
  - jekyll

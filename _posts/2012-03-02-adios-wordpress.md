@@ -2,6 +2,7 @@
 layout: post
 title: Adios Wordpress
 location: Waterloo, Canada
+comments: true
 tags:
  - jekyll
  - github

@@ -9,8 +9,17 @@ layout: default
   <span class="label">{{tag}}</span>
 {% endfor %}
 </p>
+<br>
 
 {{ content }}
+
+{% if page.comments %}
+  <br><br>
+  <div id="disqus_thread"></div>
+  <script type="text/javascript" src="http://fiorix.disqus.com/embed.js"></script>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  <br>
+{% endif %}
 
 {% if site.related_posts %}
   <br>

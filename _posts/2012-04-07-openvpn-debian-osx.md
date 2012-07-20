@@ -2,6 +2,7 @@
 layout: post
 title: OpenVPN between Debian and OSX
 location: Montréal, Canada
+comments: true
 tags:
  - openvpn
  - udp tunnel

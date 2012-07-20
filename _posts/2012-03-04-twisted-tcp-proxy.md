@@ -2,6 +2,7 @@
 layout: post
 title: Twisted TCP proxy
 location: Waterloo, Canada
+comments: true
 tags:
  - python
  - twisted
