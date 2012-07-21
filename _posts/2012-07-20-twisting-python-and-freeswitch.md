@@ -121,6 +121,9 @@ More specifically, this is the server code:
 
 <http://github.com/fiorix/talkinator/blob/master/talkinator/server.py>
 
+
+### Live demo ###
+
 This time I made it available in english, on the regular PSTN. With a SIP
 account from [freephoneline.ca](http://freephoneline.ca), on this number:
 
@@ -129,4 +132,16 @@ account from [freephoneline.ca](http://freephoneline.ca), on this number:
 It still uses the same TTS system and is a bit slow because it is hosted in
 an old server in Brazil. Don't complain.
 
-Enjoy!
+
+### So what? ###
+
+Ok, so you don't see where to go from here. I get you.
+
+Go check [my other projects](http://github.com/fiorix) on GitHub, and maybe
+you figure out how easy it is to make this (event socket) server into a web
+server with [cyclone](http://github.com/fiorix/cyclone), and easily develop
+all the crazy metrics you always wanted with
+[txredisapi](http://github.com/fiorix/txredisapi).
+
+Not to mention that the combination of python, twisted, cyclone, and redis
+let you build extremely stable, fast, scalable, and highly available products.
