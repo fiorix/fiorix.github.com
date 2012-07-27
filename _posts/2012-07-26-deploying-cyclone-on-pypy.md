@@ -21,8 +21,8 @@ twisted and cyclone, and make the symlinks as well. All links on
 
 That's the easiest and simplest generic way I found to install it:
 
-    curl [cyclone.io/install-pypy.sh](http://cyclone.io/install-pypy.sh) | bash
-    curl [cyclone.io/install-pypy-cyclone.sh](http://cyclone.io/install-pypy-cyclone.sh) | bash
+    curl cyclone.io/install-pypy.sh | bash
+    curl cyclone.io/install-pypy-cyclone.sh | bash
 
 And when I deploy my cyclone apps, it's easy to edit the rc.d init file and
 point it to use pypy_twistd.
