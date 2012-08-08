@@ -1,8 +1,8 @@
 /* http://www.colourlovers.com/palette/532628/USN_Digital */
 body {
 padding-top: 60px;
-background: #FBB917;
-/*background: #202C38;
+/*background: #FBB917;*/
+background: #202C38
 color: white;*/
 }
 header h1 {
@@ -54,4 +54,7 @@ line-height: 0.8;
 }
 .post {
 padding-bottom: 20px;
+}
+p {
+font-size: 15px;
 }
