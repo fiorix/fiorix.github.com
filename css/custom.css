@@ -55,6 +55,12 @@ line-height: 0.8;
 .post {
 padding-bottom: 20px;
 }
-p {
-font-size: 15px;
+.container p {
+font-size: 16px;
+line-height: 1.45;
+color: #585858;
+}
+p.post_info {
+font-size: 11px;
+color: #999999;
 }

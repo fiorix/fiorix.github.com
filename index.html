@@ -7,7 +7,7 @@ title: Index
   {% for post in paginator.posts %}
     <div class="post">
       <h2><a href="{{post.url}}">{{post.title}}</a></h2>
-      <p><small>{{post.date|date:site.datefmt_long}} - {{post.location}}</small></p>
+      <p class="post_info">{{post.date|date:site.datefmt_long}} - {{post.location}}</p>
     </div>
   {% endfor %}
 </div>
