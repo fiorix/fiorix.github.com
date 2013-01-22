@@ -16,16 +16,24 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="span8 offset2">
-          <header>
-            <p><a href="{{site.prefix}}/rss.xml"><img src="{{site.prefix}}/img/feed-icon-20x20.png" alt="rss"> rss</a></p>
-          </header>
+        <div class="span2 offset1">
+          <img src="{{site.prefix}}/img/mustash.png" width="150px"/>
+          <a href="{{site.prefix}}/"><h1>musta.sh</h1></a>
+          <br>
+          <form class="form-search" action="http://google.com/search" method="get">
+            <input type="hidden" name="q" value="site:musta.sh">
+            <input type="text" name="q" results="0" class="input-small input-block-level" placeholder="Search">
+          </form>
+          <p><a href="{{site.prefix}}/rss.xml"><img src="{{site.prefix}}/img/feed-icon-20x20.png" alt="rss"> rss</a></p>
+        </div>
+
+        <div class="span8">
 
           {{content}}
 
           <br>
 
-        </div> <!--main span8-->
+        </div> <!--main-->
       </div> <!--row-->
     </div> <!-- /container -->
 
