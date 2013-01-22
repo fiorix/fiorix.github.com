@@ -10,14 +10,14 @@ font-size: 45px;
 line-height: 1;
 letter-spacing: -1px;
 color: #7488A1;
-font-family: "Ropa Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
+font-family: "Arvo", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 header p {
 font-size: 15px;
 font-weight: 200;
 line-height: 27px;
 color: #465962;
-font-family: "Ropa Sans", Helvetica, Arial, sans-serif
+font-family: "PT Sans", Helvetica, Arial, sans-serif
 }
 header p small {
 font-size: 10px;
@@ -33,21 +33,21 @@ font-size: 15px;
 font-weight: 200;
 line-height: 27px;
 color: #465962;
-font-family: "Ropa Sans", Helvetica, Arial, sans-serif
+font-family: "PT Sans", Helvetica, Arial, sans-serif
 }
 h2 {
-font-size: 25px;
-line-height: 1;
+font-size: 30px;
+line-height: 1.2;
 letter-spacing: -1px;
 color: #516580;
-font-family: "Ropa Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
+font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 h3 {
 font-size: 20px;
 line-height: 2;
 letter-spacing: -1px;
 color: #465962;
-font-family: "Ropa Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
+font-family: "Arvo", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 .recent {
 line-height: 0.8;
@@ -58,7 +58,8 @@ padding-bottom: 20px;
 .container p {
 font-size: 16px;
 line-height: 1.45;
-color: #585858;
+color: black;
+font-family: "PT Sans", Helvetica, Arial, sans-serif
 }
 p.post_info {
 font-size: 11px;

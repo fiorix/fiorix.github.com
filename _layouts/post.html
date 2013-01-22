@@ -4,9 +4,9 @@ layout: default
 
 <h2>{{ page.title }}</h2>
 <p class="post_info">{{page.date|date:site.datefmt_short}}</p>
-<p>
+<p><small>Tags: 
 {% for tag in page.tags %}
-  <span class="label">{{tag}}</span>
+  {{tag}}
 {% endfor %}
 </p>
 <br>
