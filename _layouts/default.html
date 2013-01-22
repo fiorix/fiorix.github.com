@@ -7,10 +7,7 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link href="http://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" type="text/css">
-    <link href="{{site.prefix}}/css/bootstrap.min.css" rel="stylesheet">
-    <link href="{{site.prefix}}/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css" rel="stylesheet">
     <link href="{{site.prefix}}/css/custom.css" rel="stylesheet">
   </head>
 
@@ -18,14 +15,17 @@
     <div class="container">
       <div class="row">
         <div class="span2 offset1">
-          <img src="{{site.prefix}}/img/mustash.png" width="150px"/>
-          <a href="{{site.prefix}}/"><h1>musta.sh</h1></a>
-          <br>
+          <center>
+            <a href="{{site.prefix}}/"><img src="{{site.prefix}}/img/mustash.png" width="150px"/></a>
+          </center>
+          <hr>
+          <p><a href="{{site.prefix}}/rss.xml"><img src="{{site.prefix}}/img/feed-icon-20x20.png" alt="rss"> rss</a></p>
+          <p><a href="https://github.com/fiorix">github.com/fiorix</a></p>
+          <hr>
           <form class="form-search" action="http://google.com/search" method="get">
             <input type="hidden" name="q" value="site:musta.sh">
-            <input type="text" name="q" results="0" class="input-small input-block-level" placeholder="Search">
+            <input type="text" name="q" results="0" class="input-small input-block-level" placeholder="Search posts">
           </form>
-          <p><a href="{{site.prefix}}/rss.xml"><img src="{{site.prefix}}/img/feed-icon-20x20.png" alt="rss"> rss</a></p>
         </div>
 
         <div class="span8">
@@ -38,10 +38,9 @@
       </div> <!--row-->
     </div> <!-- /container -->
 
-    <script src="{{site.prefix}}/js/jquery.js"></script>
-    <script src="{{site.prefix}}/js/bootstrap-collapse.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/js/bootstrap.min.js"></script>
     <script type="text/javascript">
-
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-29740822-1']);
       _gaq.push(['_trackPageview']);
@@ -51,7 +50,6 @@
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
-
     </script>
   </body>
 </html>

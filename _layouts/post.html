@@ -2,13 +2,8 @@
 layout: default
 ---
 
-<h2>{{ page.title }}</h2>
-<p class="post_info">{{page.date|date:site.datefmt_short}}</p>
-<p><small>Tags: 
-{% for tag in page.tags %}
-  {{tag}}
-{% endfor %}
-</p>
+<h3>{{ page.title }}</h3>
+<p class="post_info">{{page.date|date:site.datefmt_short}}
 <br>
 
 {{ content }}
@@ -20,6 +15,12 @@ layout: default
   <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
   <br>
 {% endif %}
+
+<p class="post_info">Tags: 
+{% for tag in page.tags %}
+  {{tag}}
+{% endfor %}
+</p>
 
 {% if site.related_posts %}
   <br>
