@@ -44,4 +44,6 @@ is to match region names from the new list against these ones:
 
 This is the script used to compile to list:
 
-<script src="https://gist.github.com/4592774.js"></script>
+<script src="https://gist.github.com/4592774.js"> </script>
+
+Yeah!
