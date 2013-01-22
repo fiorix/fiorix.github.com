@@ -1,7 +1,7 @@
 ---
 prefix: 
 datefmt_long: '%A - %B %e, %Y'
-datefmt_short: '%B %e, %Y'
+datefmt_short: '%d %b %Y'
 paginate: 4
 pygments: false
 permalink: /:year-:month-:day/:title.html

@@ -3,7 +3,7 @@ layout: default
 ---
 
 <h2>{{ page.title }}</h2>
-<p class="post_info">{{page.date|date:site.datefmt_long}} - {{page.location}}</p>
+<p class="post_info">{{page.date|date:site.datefmt_short}}</p>
 <p>
 {% for tag in page.tags %}
   <span class="label">{{tag}}</span>
