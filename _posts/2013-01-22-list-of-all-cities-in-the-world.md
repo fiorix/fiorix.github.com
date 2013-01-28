@@ -38,12 +38,10 @@ Download: <http://musta.sh/files/all_cities_in_the_world.csv.zip>
 
 <hr>
 
-Now it's time to normalize all region names in the GeoIP database. The idea
-is to match region names from the new list against these ones:
-<http://dev.maxmind.com/static/csv/codes/maxmind/region.csv>
-
-This is the script used to compile to list:
+This is the script used to compile the list:
 
 <script src="https://gist.github.com/4592774.js"> </script>
 
-Yeah!
+Now it's time to normalize all region names in the GeoIP database. The idea
+is to match region names from the new list against these ones:
+<http://dev.maxmind.com/static/csv/codes/maxmind/region.csv>
