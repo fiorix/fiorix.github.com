@@ -5,12 +5,12 @@ padding-top: 60px;
 h2 {
 margin: 0px;
 padding: 0px;
-line-height: 10px;
 font-size: 18px;
 font-weight: normal;
+line-height: 1.0;
 }
 h2 small {
-font-size: 12px;
+font-size: 10px;
 font-family: Monaco, 'Courier New', monospace;
 }
 h2 a:link {color: black;}
