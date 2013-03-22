@@ -8,6 +8,12 @@ layout: default
 
 {{ content }}
 
+<p class="post_info">Tags: 
+{% for tag in page.tags %}
+  {{tag}}
+{% endfor %}
+</p>
+
 {% if page.comments %}
   <br><br>
   <div id="disqus_thread"></div>
@@ -16,18 +22,11 @@ layout: default
   <br>
 {% endif %}
 
-<p class="post_info">Tags: 
-{% for tag in page.tags %}
-  {{tag}}
-{% endfor %}
-</p>
 
 {% if site.related_posts %}
   <br>
-  <h3>You might also like</h3>
-  <ul>
+  <p>You might also like:</p>
   {% for related in site.related_posts limit:5 %}
-    <li><a href="{{related.url}}">{{related.title}}</a></li>
+  <p><a href="{{related.url}}">{{related.title}}</a></p>
   {% endfor %}
-  </ul>
 {% endif %}

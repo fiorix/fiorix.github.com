@@ -3,36 +3,32 @@ layout: default
 title: Index
 ---
 
-<h3>Blog posts</h3>
-<div id="posts">
-  {% for post in paginator.posts %}
-    <div class="post">
-      <h2><small>{{post.date|date:site.datefmt_short}}</small> <a href="{{post.url}}">{{post.title}}</a></h2>
-    </div>
-  {% endfor %}
-</div>
+{% for page in paginator.posts limit:1 %}
+  <h3>{{ page.title }}</h3>
+  <p class="post_info">{{page.date|date:site.datefmt_short}} &lowast; <a href="{{page.url}}">permalink</a></p>
+  <br>
 
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-  <ul>
-    {% if paginator.page != 1 %}
-      {% if paginator.previous_page == 1 %}
-        <li><a href="{{site.prefix}}/">&laquo;</a></li>
-      {% else %}
-        <li><a href="{{site.prefix}}/page{{paginator.previous_page}}">&laquo;</a></li>
-      {% endif %}
-    {% endif %}
-    {% for n in (1..paginator.total_pages) limit:10 %}
-      {% if n == 1 %}
-        <li{% if n == paginator.page %} class="active"{% endif %}><a href="{{site.prefix}}/">{{n}}</a></li>
-      {% else %}
-        <li{% if n == paginator.page %} class="active"{% endif %}><a href="{{site.prefix}}/page{{n}}">{{n}}</a></li>
-      {% endif %}
-    {% endfor %}
-    {% if paginator.page != paginator.total_pages %}
-      <li><a href="{{site.prefix}}/page{{paginator.next_page}}">&raquo;</a></li>
-    {% endif %}
-  </ul>
-</div>
-{% endif %}
-</div>
+  {{ page.content }}
+
+  <p class="post_info">Tags:
+  {% for tag in page.tags %}
+    {{tag}}
+  {% endfor %}
+  </p>
+{% endfor %}
+
+<hr>
+<p>Recent posts</p>
+{% for page in paginator.posts offset:1 %}
+<p><small style="font-family:monospace">{{page.date|date:site.datefmt_short}}</small> &lowast;
+<a href="{{page.url}}">{{page.title}}</a></p>
+{% endfor %}
+
+<hr>
+<a href="/archive.html">Archive</a>
+<hr>
+
+<footer>
+<p><small>This web site and its contents are licensed under the
+  <a href="http://creativecommons.org/licenses/by/3.0/">creative commons 3.0</a>.</small></p>
+</footer>
