@@ -1,34 +1,7 @@
----
-layout: default
-title: Index
----
-
-{% for page in paginator.posts limit:1 %}
-  <h3>{{ page.title }}</h3>
-  <p class="post_info">{{page.date|date:site.datefmt_short}} &lowast; <a href="{{page.url}}">permalink</a></p>
-  <br>
-
-  {{ page.content }}
-
-  <p class="post_info">Tags:
-  {% for tag in page.tags %}
-    {{tag}}
-  {% endfor %}
-  </p>
-{% endfor %}
-
-<hr>
-<p>Recent posts</p>
-{% for page in paginator.posts offset:1 %}
-<p><small style="font-family:monospace">{{page.date|date:site.datefmt_short}}</small> &lowast;
-<a href="{{page.url}}">{{page.title}}</a></p>
-{% endfor %}
-
-<hr>
-<a href="/archive.html">Archive</a>
-<hr>
-
-<footer>
-<p><small>This web site and its contents are licensed under the
-  <a href="http://creativecommons.org/licenses/by/3.0/">creative commons 3.0</a>.</small></p>
-</footer>
+<!doctype html>
+<html>
+  <head><title>Hello, world.</title></head>
+  <body>
+    Hi, I'm <a href="https://github.com/fiorix">@fiorix</a>.
+  </body>
+</html>
